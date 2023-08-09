@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('s.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+h1 {
+    text-align:center;
+}
+.Calculator {
+    background-color: #261f75;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+#result {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    text-align: right;
+    box-shadow: 4px 4px 4px rgb(97, 220, 220);
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 8, 255);
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 5px;
+    box-shadow: 4px 4px 4px rgb(97, 220, 220);
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #73d5ee;
+    box-shadow: 6px 6px 6px rgb(1, 66, 66);
+    transform: scale(1.05); 
+}
+#result:hover{
+    transform: scale(1.2,1.2);
+}
+#heading{
+    color: rgb(8, 83, 86);
+    text-align: center;
+    padding: 15px;
+}
+#calci{
+    background-color: transparent;
+    margin-left: 700px;
+    border-radius: 10%;
+}
+#pad{
+    padding: 50px;
+
+}
